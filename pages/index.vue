@@ -1,92 +1,86 @@
 <template>
-  <v-layout
-    column
-    justify-center
-    align-center
-  >
-    <v-flex
-      xs12
-      sm8
-      md6
-    >
-      <div class="text-center">
-        <logo />
-        <vuetify-logo />
-      </div>
-      <v-card>
-        <v-card-title class="headline">
-          Welcome to the Vuetify + Nuxt.js template
-        </v-card-title>
-        <v-card-text>
-          <p>Vuetify is a progressive Material Design component framework for Vue.js. It was designed to empower developers to create amazing applications.</p>
-          <p>
-            For more information on Vuetify, check out the <a
-              href="https://vuetifyjs.com"
-              target="_blank"
-            >
-              documentation
-            </a>.
-          </p>
-          <p>
-            If you have questions, please join the official <a
-              href="https://chat.vuetifyjs.com/"
-              target="_blank"
-              title="chat"
-            >
-              discord
-            </a>.
-          </p>
-          <p>
-            Find a bug? Report it on the github <a
-              href="https://github.com/vuetifyjs/vuetify/issues"
-              target="_blank"
-              title="contribute"
-            >
-              issue board
-            </a>.
-          </p>
-          <p>Thank you for developing with Vuetify and I look forward to bringing more exciting features in the future.</p>
-          <div class="text-xs-right">
-            <em><small>&mdash; John Leider</small></em>
-          </div>
-          <hr class="my-3">
-          <a
-            href="https://nuxtjs.org/"
-            target="_blank"
-          >
-            Nuxt Documentation
-          </a>
-          <br>
-          <a
-            href="https://github.com/nuxt/nuxt.js"
-            target="_blank"
-          >
-            Nuxt GitHub
-          </a>
-        </v-card-text>
-        <v-card-actions>
-          <v-spacer />
-          <v-btn
-            color="primary"
-            nuxt
-            to="/inspire"
-          >
-            Continue
-          </v-btn>
-        </v-card-actions>
-      </v-card>
-    </v-flex>
-  </v-layout>
+  <v-container>
+    <v-layout column align-start my-4>
+      <v-flex xs12 sm6 md2>
+        <img src="/seedstage_logo_small.png" alt="Seedstage logo" style="width: 100%; max-width: 300px">
+      </v-flex>
+    </v-layout>
+
+    <v-layout wrap justify-center my-5 bottom-spacing>
+      <v-flex xs12 my-2>
+        <h2>Investments</h2>
+        <v-divider />
+      </v-flex>
+      <v-flex xs4 mt-3 mb-3 investment-logos>
+        <a href="https://sharebox.no">
+          <img src="/sharebox_logo.png">
+        </a>
+      </v-flex>
+      <v-flex xs4 mt-3 mb-3 investment-logos>
+        <a href="https://accountflow.no">
+          <img src="/accountflow_logo.png">
+        </a>
+      </v-flex>
+      <v-flex xs4 mt-3 mb-3 investment-logos>
+        <a href="https://luado.no">
+          <img src="/luado_logo.png">
+        </a>
+      </v-flex>
+    </v-layout>
+
+    <v-layout wrap justify-center my-5 team bottom-spacing>
+      <v-flex xs12 my-2>
+        <h2>Team</h2>
+        <v-divider />
+      </v-flex>
+      <v-flex xs4 mt-3 mb-3>
+        <img src="/johannes_berggren.jpeg" alt="Johannes Berggren" />
+        <p>Johannes Berggren</p>
+      </v-flex>
+      <v-flex xs4 mt-3 mb-3>
+        <img src="/arthur_pogosov.jpeg" alt="Arthur Pogosov" />
+        <p>Arthur Pogosov</p>
+      </v-flex>
+      <v-flex xs4 mt-3 mb-3>
+        <img src="/hans_webjornsen.jpeg" alt="Hans Webjørnsen" />
+        <p>Hans Webjørnsen</p>
+      </v-flex>
+    </v-layout>
+  </v-container>
 </template>
 
-<script>
-import Logo from '~/components/Logo.vue'
-import VuetifyLogo from '~/components/VuetifyLogo.vue'
+<style scoped lang="stylus">
+  h2
+    text-align center
 
-export default {
-  components: {
-    Logo,
-    VuetifyLogo
-  }
-}
-</script>
+  a
+    font-family sans-serif
+    text-decoration none
+
+  .first a
+    font-size 18px
+
+  .second a
+    font-size 16px
+
+  .investment-logos
+    display flex
+
+  .investment-logos a
+    align-self center
+    margin auto
+
+  .investment-logos a img
+    max-width 200px
+
+  .team
+    text-align center
+
+  .team img
+    border-radius 100%
+    width 150px
+    height 150px
+
+  .bottom-spacing
+    margin-bottom 80px !important
+</style>
