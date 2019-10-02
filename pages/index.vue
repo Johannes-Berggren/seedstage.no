@@ -34,15 +34,15 @@
         <v-divider />
       </v-flex>
       <v-flex xs4 mt-3 mb-3>
-        <img src="/johannes_berggren.jpeg" alt="Johannes Berggren" />
+        <img src="/johannes_berggren.jpeg" alt="Johannes Berggren">
         <p>Johannes Berggren</p>
       </v-flex>
       <v-flex xs4 mt-3 mb-3>
-        <img src="/arthur_pogosov.jpeg" alt="Arthur Pogosov" />
+        <img src="/arthur_pogosov.jpeg" alt="Arthur Pogosov">
         <p>Arthur Pogosov</p>
       </v-flex>
       <v-flex xs4 mt-3 mb-3>
-        <img src="/hans_webjornsen.jpeg" alt="Hans Webjørnsen" />
+        <img src="/hans_webjornsen.jpeg" alt="Hans Webjørnsen">
         <p>Hans Webjørnsen</p>
       </v-flex>
     </v-layout>
