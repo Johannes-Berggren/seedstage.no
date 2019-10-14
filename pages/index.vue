@@ -2,48 +2,67 @@
   <v-container>
     <v-layout column align-start my-4>
       <v-flex xs12 sm6 md2>
-        <img src="/seedstage_logo_small.png" alt="Seedstage logo" style="width: 100%; max-width: 300px">
+        <img src="/seedstage_logo_blue_small.png" alt="Seedstage logo" style="width: 100%; max-width: 300px">
+      </v-flex>
+    </v-layout>
+
+    <v-layout wrap justify-center my-5 bottom-spacing style="text-align: center">
+      <v-flex xs4 mt-3 mb-3>
+        <p>Seedstage is an angel investor collective. We share knowledge, ideas and dealflow.</p>
       </v-flex>
     </v-layout>
 
     <v-layout wrap justify-center my-5 bottom-spacing>
       <v-flex xs12 my-2>
-        <h2>Investments</h2>
-        <v-divider />
+        <h2>We've invested in...</h2>
       </v-flex>
       <v-flex xs4 mt-3 mb-3 investment-logos>
-        <a href="https://sharebox.no">
-          <img src="/sharebox_logo.png">
-        </a>
+        <img src="/sharebox_logo.png">
       </v-flex>
       <v-flex xs4 mt-3 mb-3 investment-logos>
-        <a href="https://accountflow.no">
-          <img src="/accountflow_logo.png">
-        </a>
+        <img src="/accountflow_logo.png">
       </v-flex>
       <v-flex xs4 mt-3 mb-3 investment-logos>
-        <a href="https://luado.no">
-          <img src="/luado_logo.png">
-        </a>
+        <img src="/luado_logo.png">
+      </v-flex>
+      <v-flex xs4 mt-3 mb-3 investment-logos>
+        <img src="/cavai_logo.png">
+      </v-flex>
+      <v-flex xs4 mt-3 mb-3 investment-logos>
+        <img src="/bagin_logo.jpg">
+      </v-flex>
+      <v-flex xs4 mt-3 mb-3 investment-logos>
+        <img src="/logo_boldbooks.jpg">
+      </v-flex>
+      <v-flex xs4 mt-3 mb-3 investment-logos>
+        <img src="/exero_logo.png" style="max-width: 100px">
       </v-flex>
     </v-layout>
 
     <v-layout wrap justify-center my-5 team bottom-spacing>
       <v-flex xs12 my-2>
-        <h2>Team</h2>
-        <v-divider />
+        <h2>Who are we?</h2>
       </v-flex>
       <v-flex xs4 mt-3 mb-3>
         <img src="/johannes_berggren.jpeg" alt="Johannes Berggren">
         <p>Johannes Berggren</p>
+        <p class="role">
+          Learnlink
+        </p>
       </v-flex>
       <v-flex xs4 mt-3 mb-3>
         <img src="/arthur_pogosov.jpeg" alt="Arthur Pogosov">
         <p>Arthur Pogosov</p>
+        <p class="role">
+          Oslo Technology Consulting
+        </p>
       </v-flex>
       <v-flex xs4 mt-3 mb-3>
         <img src="/hans_webjornsen.jpeg" alt="Hans Webjørnsen">
         <p>Hans Webjørnsen</p>
+        <p class="role">
+          CFO, Hafslund
+        </p>
       </v-flex>
     </v-layout>
   </v-container>
@@ -51,6 +70,7 @@
 
 <style scoped lang="stylus">
   h2
+    font-size 30px
     text-align center
 
   a
@@ -66,11 +86,11 @@
   .investment-logos
     display flex
 
-  .investment-logos a
+  .investment-logos img
     align-self center
     margin auto
 
-  .investment-logos a img
+  .investment-logos img
     max-width 200px
 
   .team
@@ -83,4 +103,11 @@
 
   .bottom-spacing
     margin-bottom 80px !important
+
+  .team p
+    margin 0
+
+  .team .role
+    color grey
+    font-size 14px
 </style>
