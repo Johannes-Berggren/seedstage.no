@@ -3,6 +3,18 @@
     <v-content>
       <nuxt />
     </v-content>
+    <!--    <v-footer color="blue darken-2">-->
+    <!--      <v-layout row wrap align-center>-->
+    <!--        <v-flex xs12>-->
+    <!--          <div class="white&#45;&#45;text ml-4">-->
+    <!--            Made with-->
+    <!--            <v-icon class="red&#45;&#45;text">mdi-heart</v-icon>-->
+    <!--            by <a class="white&#45;&#45;text" href="https://vuetifyjs.com" target="_blank">Vuetify</a>-->
+    <!--            and <a class="white&#45;&#45;text" href="https://github.com/vwxyzjn">Costa Huang</a>-->
+    <!--          </div>-->
+    <!--        </v-flex>-->
+    <!--      </v-layout>-->
+    <!--    </v-footer>-->
   </v-app>
 </template>
 
