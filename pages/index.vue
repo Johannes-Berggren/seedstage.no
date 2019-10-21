@@ -8,8 +8,12 @@
           justify-center
           class="white--text"
         >
-          <h1 class="white--text mb-2 display-1 text-center">Seedstage is an angel investor collective</h1>
-          <div class="subheading mb-4 text-center">We share knowledge, ideas and dealflow.</div>
+          <h1 class="white--text mb-2 display-1 text-center">
+            Seedstage is an angel investor collective
+          </h1>
+          <div class="subheading mb-4 text-center">
+            We share knowledge, ideas and dealflow.
+          </div>
           <v-btn
             class="mt-12"
             color="blue"
@@ -32,10 +36,12 @@
       >
         <v-flex xs12 sm4 class="my-4">
           <div class="text-center">
-            <h2 class="headline">Portfolio</h2>
+            <h2 class="headline">
+              Portfolio
+            </h2>
             <span class="subheading">
-                Our collective investments
-              </span>
+              Our collective investments
+            </span>
           </div>
         </v-flex>
         <v-flex xs12>
@@ -108,89 +114,96 @@
       </v-layout>
     </section>
 
+    <section class="investment-profile">
+      <v-parallax src="background-2.jpg" height="380">
+        <v-layout column align-center justify-center>
+          <div class="headline mb-4 text-center">
+            We invest in seed-stage companies with some initial traction.
+          </div>
+          <!--          <em>Our typical check size is 100 000 - 500 000 NOK.</em>-->
+        </v-layout>
+      </v-parallax>
+    </section>
+
     <section>
       <v-layout
-        column
         wrap
         class="my-12"
         align-center
       >
-        <v-flex xs12 sm4 class="my-4">
+        <v-flex xs12 class="my-4">
           <div class="text-center">
-            <h2 class="headline">Members</h2>
+            <h2 class="headline">
+              Members
+            </h2>
             <span class="subheading">
-                We're here to help our portfolio companies grow
-              </span>
+              We're here to help our portfolio companies grow
+            </span>
           </div>
         </v-flex>
         <v-flex xs12>
-          <v-container grid-list-xl>
-            <v-layout row wrap align-top team>
-              <v-flex xs12 md4>
-                <v-card flat class="transparent">
-                  <v-card-text class="text-center">
-                    <img src="/johannes_berggren.jpeg" alt="Johannes Berggren">
-                  </v-card-text>
-                  <v-card-title primary-title class="layout justify-center">
-                    <div class="headline text-center">Johannes Berggren</div>
-                  </v-card-title>
-                  <v-card-text>
-                    <strong>Software Engineer</strong><br>
-                    Technical expertise.
-                  </v-card-text>
-                </v-card>
-              </v-flex>
-              <v-flex xs12 md4>
-                <v-card flat class="transparent">
-                  <v-card-text class="text-center">
-                    <img src="/arthur_pogosov.jpeg" alt="Arthur Pogosov">
-                  </v-card-text>
-                  <v-card-title primary-title class="layout justify-center">
-                    <div class="headline">Arthur Pogosov</div>
-                  </v-card-title>
-                  <v-card-text>
-                    <strong>Digital Marketing Consultant</strong><br>
-                    Digital marketing expertise.
-                  </v-card-text>
-                </v-card>
-              </v-flex>
-              <v-flex xs12 md4>
-                <v-card flat class="transparent">
-                  <v-card-text class="text-center">
-                    <img src="/hans_webjornsen.jpeg" alt="Hans Webjørnsen">
-                  </v-card-text>
-                  <v-card-title primary-title class="layout justify-center">
-                    <div class="headline text-center">Hans Webjørnsen</div>
-                  </v-card-title>
-                  <v-card-text>
-                    <strong>CFO</strong><br>
-                    Finance and economics expertise.
-                  </v-card-text>
-                </v-card>
-              </v-flex>
-            </v-layout>
-          </v-container>
+          <v-layout row wrap align-top team>
+            <v-flex xs12 md4>
+              <v-card flat class="transparent">
+                <v-card-text class="text-center">
+                  <img src="/johannes_berggren.jpeg" alt="Johannes Berggren">
+                </v-card-text>
+                <v-card-title primary-title class="layout justify-center">
+                  <div class="headline text-center">
+                    Johannes Berggren
+                  </div>
+                </v-card-title>
+                <v-card-text>
+                  <strong>Software Engineering</strong><br>
+                  Software engineering management<br>
+                  IT Operations and infrastructure<br>
+                  Product development<br>
+                  Outsourcing
+                </v-card-text>
+              </v-card>
+            </v-flex>
+            <v-flex xs12 md4>
+              <v-card flat class="transparent">
+                <v-card-text class="text-center">
+                  <img src="/arthur_pogosov.jpeg" alt="Arthur Pogosov">
+                </v-card-text>
+                <v-card-title primary-title class="layout justify-center">
+                  <div class="headline">
+                    Arthur Pogosov
+                  </div>
+                </v-card-title>
+                <v-card-text>
+                  <strong>Digital Marketing</strong><br>
+                  Conversions and bidding<br>
+                  Reporting and analysis<br>
+                  Business development<br>
+                  Project management
+                </v-card-text>
+              </v-card>
+            </v-flex>
+            <v-flex xs12 md4>
+              <v-card flat class="transparent">
+                <v-card-text class="text-center">
+                  <img src="/hans_webjornsen.jpeg" alt="Hans Webjørnsen">
+                </v-card-text>
+                <v-card-title primary-title class="layout justify-center">
+                  <div class="headline text-center">
+                    Hans Webjørnsen
+                  </div>
+                </v-card-title>
+                <v-card-text>
+                  <strong>Finance</strong><br>
+                  Valuation and due dilligence<br>
+                  Budgets and forecasts<br>
+                  Financial reporting<br>
+                  Audits
+                </v-card-text>
+              </v-card>
+            </v-flex>
+          </v-layout>
         </v-flex>
       </v-layout>
     </section>
-
-    <!--    <section>-->
-    <!--      <v-parallax src="section.jpg" height="380">-->
-    <!--        <v-layout column align-center justify-center>-->
-    <!--          <div class="headline white&#45;&#45;text mb-4 text-center">Web development has never been easier</div>-->
-    <!--          <em>Kick-start your application today</em>-->
-    <!--          <v-btn-->
-    <!--            class="mt-12"-->
-    <!--            color="blue lighten-2"-->
-    <!--            dark-->
-    <!--            large-->
-    <!--            href="#contact"-->
-    <!--          >-->
-    <!--            Get Started-->
-    <!--          </v-btn>-->
-    <!--        </v-layout>-->
-    <!--      </v-parallax>-->
-    <!--    </section>-->
 
     <section>
       <v-container grid-list-xl>
@@ -207,10 +220,12 @@
           <!--              </v-card-text>-->
           <!--            </v-card>-->
           <!--          </v-flex>-->
-          <v-flex xs12 sm4 offset-sm1 id="contact">
+          <v-flex id="contact" xs12 sm4 offset-sm1>
             <v-card flat class="transparent">
               <v-card-title primary-title class="layout justify-center">
-                <div class="headline">Contact us</div>
+                <div class="headline">
+                  Contact us
+                </div>
               </v-card-title>
               <!--              <v-card-text>-->
               <!--                Let's start the conversation-->
@@ -226,7 +241,9 @@
                 <!--                </v-list-item>-->
                 <v-list-item>
                   <v-list-item-action>
-                    <v-icon class="blue--text text--lighten-2">mdi-map-marker</v-icon>
+                    <v-icon class="blue--text text--lighten-2">
+                      mdi-map-marker
+                    </v-icon>
                   </v-list-item-action>
                   <v-list-item-content>
                     <v-list-item-title>Oslo, Norway</v-list-item-title>
@@ -234,7 +251,9 @@
                 </v-list-item>
                 <v-list-item>
                   <v-list-item-action>
-                    <v-icon class="blue--text text--lighten-2">mdi-email</v-icon>
+                    <v-icon class="blue--text text--lighten-2">
+                      mdi-email
+                    </v-icon>
                   </v-list-item-action>
                   <v-list-item-content>
                     <v-list-item-title>hello@seedstage.no</v-list-item-title>
@@ -273,6 +292,9 @@
 
   .investment-logos img
     max-width 200px
+
+  .investment-profile
+    text-shadow #000 0px 2px 4px
 
   .team
     text-align center
