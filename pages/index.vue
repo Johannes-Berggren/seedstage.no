@@ -115,14 +115,19 @@
     </section>
 
     <section class="investment-profile">
-      <v-parallax src="background-2.jpg" height="380">
-        <v-layout column align-center justify-center>
-          <div class="headline mb-4 text-center">
-            We invest in seed-stage companies with some initial traction.
+      <v-layout column align-center justify-center>
+        <v-flex xs12 class="my-4">
+          <div class="text-center">
+            <h2 class="headline">
+              Our investment profile
+            </h2>
+            <p>We invest in companies that have some initial traction.</p>
+            <p>Completed FFF and pre-seed rounds.</p>
+            <p>If you don't have revenue, you should know how to get it.</p>
+            <p>Our typical check size is 300 000 - 1 000 000 NOK.</p>
           </div>
-          <!--          <em>Our typical check size is 100 000 - 500 000 NOK.</em>-->
-        </v-layout>
-      </v-parallax>
+        </v-flex>
+      </v-layout>
     </section>
 
     <section>
@@ -142,8 +147,8 @@
           </div>
         </v-flex>
         <v-flex xs12>
-          <v-layout row wrap align-top team>
-            <v-flex xs12 md4>
+          <v-layout row wrap align-top justify-center team>
+            <v-flex xs12 sm6 md4>
               <v-card flat class="transparent">
                 <v-card-text class="text-center">
                   <img src="/johannes_berggren.jpeg" alt="Johannes Berggren">
@@ -162,7 +167,7 @@
                 </v-card-text>
               </v-card>
             </v-flex>
-            <v-flex xs12 md4>
+            <v-flex xs12 sm6 md4>
               <v-card flat class="transparent">
                 <v-card-text class="text-center">
                   <img src="/arthur_pogosov.jpeg" alt="Arthur Pogosov">
@@ -181,7 +186,7 @@
                 </v-card-text>
               </v-card>
             </v-flex>
-            <v-flex xs12 md4>
+            <v-flex xs12 sm6 md4>
               <v-card flat class="transparent">
                 <v-card-text class="text-center">
                   <img src="/hans_webjornsen.jpeg" alt="Hans Webjørnsen">
@@ -289,12 +294,10 @@
   .investment-logos img
     align-self center
     margin auto
+    margin-bottom 20px
 
   .investment-logos img
     max-width 200px
-
-  .investment-profile
-    text-shadow #000 0px 2px 4px
 
   .team
     text-align center
