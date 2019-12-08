@@ -14,15 +14,14 @@
           <div class="subheading mb-4 text-center">
             We share knowledge, ideas and dealflow.
           </div>
-          <v-btn
-            class="mt-12"
-            color="blue"
-            dark
-            large
-            href="#contact"
-          >
-            Get in touch
-          </v-btn>
+          <a
+            class="typeform-share button"
+            href="https://learnlink.typeform.com/to/Rd0lV6"
+            data-mode="popup"
+            style="display:inline-block;text-decoration:none;background-color:#54a5f4;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;"
+            target="_blank"
+          >Get in touch
+          </a>
         </v-layout>
       </v-parallax>
     </section>
@@ -205,6 +204,101 @@
                 </v-card-text>
               </v-card>
             </v-flex>
+            <v-flex xs12 sm6 md4>
+              <v-card flat class="transparent">
+                <v-card-text class="text-center">
+                  <img src="/christian_storm.jpeg" alt="Hans Webjørnsen">
+                </v-card-text>
+                <v-card-title primary-title class="layout justify-center">
+                  <div class="headline text-center">
+                    Christian Storm
+                  </div>
+                </v-card-title>
+                <!--                <v-card-text>-->
+                <!--                  <strong>Finance</strong><br>-->
+                <!--                  Valuation and due dilligence<br>-->
+                <!--                  Budgets and forecasts<br>-->
+                <!--                  Financial reporting<br>-->
+                <!--                  Audits-->
+                <!--                </v-card-text>-->
+              </v-card>
+            </v-flex>
+            <v-flex xs12 sm6 md4>
+              <v-card flat class="transparent">
+                <v-card-text class="text-center">
+                  <img src="/martin_jorgensen.jpeg" alt="Hans Webjørnsen">
+                </v-card-text>
+                <v-card-title primary-title class="layout justify-center">
+                  <div class="headline text-center">
+                    Martin Jørgensen
+                  </div>
+                </v-card-title>
+                <!--                <v-card-text>-->
+                <!--                  <strong>Finance</strong><br>-->
+                <!--                  Valuation and due dilligence<br>-->
+                <!--                  Budgets and forecasts<br>-->
+                <!--                  Financial reporting<br>-->
+                <!--                  Audits-->
+                <!--                </v-card-text>-->
+              </v-card>
+            </v-flex>
+            <v-flex xs12 sm6 md4>
+              <v-card flat class="transparent">
+                <v-card-text class="text-center">
+                  <img src="/hakon_kristiansen.jpeg" alt="Hans Webjørnsen">
+                </v-card-text>
+                <v-card-title primary-title class="layout justify-center">
+                  <div class="headline text-center">
+                    Håkon Kristiansen
+                  </div>
+                </v-card-title>
+                <!--                <v-card-text>-->
+                <!--                  <strong>Finance</strong><br>-->
+                <!--                  Valuation and due dilligence<br>-->
+                <!--                  Budgets and forecasts<br>-->
+                <!--                  Financial reporting<br>-->
+                <!--                  Audits-->
+                <!--                </v-card-text>-->
+              </v-card>
+            </v-flex>
+            <v-flex xs12 sm6 md4>
+              <v-card flat class="transparent">
+                <v-card-text class="text-center">
+                  <img src="/christoffer_tenvig.jpeg" alt="Hans Webjørnsen">
+                </v-card-text>
+                <v-card-title primary-title class="layout justify-center">
+                  <div class="headline text-center">
+                    Christoffer Andersen Tenvig
+                  </div>
+                </v-card-title>
+                <!--                <v-card-text>-->
+                <!--                  <strong>Finance</strong><br>-->
+                <!--                  Valuation and due dilligence<br>-->
+                <!--                  Budgets and forecasts<br>-->
+                <!--                  Financial reporting<br>-->
+                <!--                  Audits-->
+                <!--                </v-card-text>-->
+              </v-card>
+            </v-flex>
+            <v-flex xs12 sm6 md4>
+              <v-card flat class="transparent">
+                <v-card-text class="text-center">
+                  <img src="/ola_svalheim.jpeg" alt="Hans Webjørnsen">
+                </v-card-text>
+                <v-card-title primary-title class="layout justify-center">
+                  <div class="headline text-center">
+                    Ola Leithe Svalheim
+                  </div>
+                </v-card-title>
+                <!--                <v-card-text>-->
+                <!--                  <strong>Finance</strong><br>-->
+                <!--                  Valuation and due dilligence<br>-->
+                <!--                  Budgets and forecasts<br>-->
+                <!--                  Financial reporting<br>-->
+                <!--                  Audits-->
+                <!--                </v-card-text>-->
+              </v-card>
+            </v-flex>
           </v-layout>
         </v-flex>
       </v-layout>
@@ -261,9 +355,20 @@
                     </v-icon>
                   </v-list-item-action>
                   <v-list-item-content>
-                    <v-list-item-title>hello@seedstage.no</v-list-item-title>
+                    <v-list-item-title>
+                      hello@seedstage.no
+                    </v-list-item-title>
                   </v-list-item-content>
                 </v-list-item>
+                <br>
+                <a
+                  class="typeform-share button"
+                  href="https://learnlink.typeform.com/to/Rd0lV6"
+                  data-mode="popup"
+                  style="display:inline-block;text-decoration:none;background-color:#54a5f4;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;"
+                  target="_blank"
+                >Contact Seedstage
+                </a>
               </v-list>
             </v-card>
           </v-flex>
@@ -272,6 +377,31 @@
     </section>
   </div>
 </template>
+
+<script>
+export default {
+  mounted () {
+    // eslint-disable-next-line
+    (function () {
+      let js
+      let q
+      const d = document
+      const gi = d.getElementById
+      const ce = d.createElement
+      const gt = d.getElementsByTagName
+      const id = 'typef_orm_share'
+      const b = 'https://embed.typeform.com/'
+      if (!gi.call(d, id)) {
+        js = ce.call(d, 'script')
+        js.id = id
+        js.src = b + 'embed.js'
+        q = gt.call(d, 'script')[0]
+        q.parentNode.insertBefore(js, q)
+      }
+    })()
+  }
+}
+</script>
 
 <style scoped lang="stylus">
   h2
