@@ -108,6 +108,33 @@
             >
               <img src="/exero_logo.png" style="max-width: 100px">
             </v-flex>
+            <v-flex
+              xs12
+              sm6
+              md4
+              my-5
+              investment-logos
+            >
+              <img src="/taasen_microgreens_logo.jpg">
+            </v-flex>
+            <v-flex
+              xs12
+              sm6
+              md4
+              my-5
+              investment-logos
+            >
+              <img src="/hubro_education_logo.png">
+            </v-flex>
+            <v-flex
+              xs12
+              sm6
+              md4
+              my-5
+              investment-logos
+            >
+              <img src="/learnlink_logo.png">
+            </v-flex>
           </v-layout>
         </v-flex>
       </v-layout>
@@ -141,7 +168,7 @@
               Members
             </h2>
             <span class="subheading">
-              We're here to help our portfolio companies grow
+              Seedstage members and their core competencies
             </span>
           </div>
         </v-flex>
@@ -149,18 +176,16 @@
           <v-layout row wrap align-top justify-center team>
             <v-flex xs12 sm6 md4>
               <v-card flat class="transparent">
-                <v-card-text class="text-center">
-                  <img src="/johannes_berggren.jpeg" alt="Johannes Berggren">
-                </v-card-text>
-                <v-card-title primary-title class="layout justify-center">
-                  <div class="headline text-center">
-                    Johannes Berggren
-                  </div>
-                </v-card-title>
+                <img src="/johannes_berggren.jpeg" alt="Johannes Berggren">
+
+                <div class="headline text-center">
+                  Johannes Berggren
+                </div>
+
                 <v-card-text>
                   <strong>Software Engineering</strong><br>
-                  Software engineering management<br>
-                  IT Operations and infrastructure<br>
+                  Systems engineering management<br>
+                  Systems administration<br>
                   Product development<br>
                   Outsourcing
                 </v-card-text>
@@ -168,14 +193,12 @@
             </v-flex>
             <v-flex xs12 sm6 md4>
               <v-card flat class="transparent">
-                <v-card-text class="text-center">
-                  <img src="/arthur_pogosov.jpeg" alt="Arthur Pogosov">
-                </v-card-text>
-                <v-card-title primary-title class="layout justify-center">
-                  <div class="headline">
-                    Arthur Pogosov
-                  </div>
-                </v-card-title>
+                <img src="/arthur_pogosov.jpeg" alt="Arthur Pogosov">
+
+                <div class="headline">
+                  Arthur Pogosov
+                </div>
+
                 <v-card-text>
                   <strong>Digital Marketing</strong><br>
                   Conversions and bidding<br>
@@ -187,14 +210,12 @@
             </v-flex>
             <v-flex xs12 sm6 md4>
               <v-card flat class="transparent">
-                <v-card-text class="text-center">
-                  <img src="/hans_webjornsen.jpeg" alt="Hans Webjørnsen">
-                </v-card-text>
-                <v-card-title primary-title class="layout justify-center">
-                  <div class="headline text-center">
-                    Hans Webjørnsen
-                  </div>
-                </v-card-title>
+                <img src="/hans_webjornsen.jpeg" alt="Hans Webjørnsen">
+
+                <div class="headline text-center">
+                  Hans Webjørnsen
+                </div>
+
                 <v-card-text>
                   <strong>Finance</strong><br>
                   Valuation and due dilligence<br>
@@ -206,14 +227,46 @@
             </v-flex>
             <v-flex xs12 sm6 md4>
               <v-card flat class="transparent">
-                <v-card-text class="text-center">
-                  <img src="/christian_storm.jpeg" alt="Hans Webjørnsen">
+                <img src="/christian_storm.jpeg" alt="Hans Webjørnsen">
+
+                <div class="headline text-center">
+                  Christian Storm
+                </div>
+
+                <v-card-text>
+                  <strong>Finance and Treasury</strong><br>
+                  Financial reporting<br>
+                  Cash management<br>
+                  Asia connections<br>
+                  Financing
                 </v-card-text>
-                <v-card-title primary-title class="layout justify-center">
-                  <div class="headline text-center">
-                    Christian Storm
-                  </div>
-                </v-card-title>
+              </v-card>
+            </v-flex>
+            <v-flex xs12 sm6 md4>
+              <v-card flat class="transparent">
+                <img src="/martin_jorgensen.jpg" alt="Hans Webjørnsen">
+
+                <div class="headline text-center">
+                  Martin Jørgensen
+                </div>
+
+                <v-card-text>
+                  <!--                  <strong>Finance</strong><br>-->
+                  <!--                  Valuation and due dilligence<br>-->
+                  <!--                  Budgets and forecasts<br>-->
+                  <!--                  Financial reporting<br>-->
+                  <!--                  Audits-->
+                </v-card-text>
+              </v-card>
+            </v-flex>
+            <v-flex xs12 sm6 md4>
+              <v-card flat class="transparent">
+                <img src="/hakon_kristiansen.jpeg" alt="Hans Webjørnsen">
+
+                <div class="headline text-center">
+                  Håkon Kristiansen
+                </div>
+
                 <!--                <v-card-text>-->
                 <!--                  <strong>Finance</strong><br>-->
                 <!--                  Valuation and due dilligence<br>-->
@@ -225,71 +278,12 @@
             </v-flex>
             <v-flex xs12 sm6 md4>
               <v-card flat class="transparent">
-                <v-card-text class="text-center">
-                  <img src="/martin_jorgensen.jpeg" alt="Hans Webjørnsen">
-                </v-card-text>
-                <v-card-title primary-title class="layout justify-center">
-                  <div class="headline text-center">
-                    Martin Jørgensen
-                  </div>
-                </v-card-title>
-                <!--                <v-card-text>-->
-                <!--                  <strong>Finance</strong><br>-->
-                <!--                  Valuation and due dilligence<br>-->
-                <!--                  Budgets and forecasts<br>-->
-                <!--                  Financial reporting<br>-->
-                <!--                  Audits-->
-                <!--                </v-card-text>-->
-              </v-card>
-            </v-flex>
-            <v-flex xs12 sm6 md4>
-              <v-card flat class="transparent">
-                <v-card-text class="text-center">
-                  <img src="/hakon_kristiansen.jpeg" alt="Hans Webjørnsen">
-                </v-card-text>
-                <v-card-title primary-title class="layout justify-center">
-                  <div class="headline text-center">
-                    Håkon Kristiansen
-                  </div>
-                </v-card-title>
-                <!--                <v-card-text>-->
-                <!--                  <strong>Finance</strong><br>-->
-                <!--                  Valuation and due dilligence<br>-->
-                <!--                  Budgets and forecasts<br>-->
-                <!--                  Financial reporting<br>-->
-                <!--                  Audits-->
-                <!--                </v-card-text>-->
-              </v-card>
-            </v-flex>
-            <v-flex xs12 sm6 md4>
-              <v-card flat class="transparent">
-                <v-card-text class="text-center">
-                  <img src="/christoffer_tenvig.jpeg" alt="Hans Webjørnsen">
-                </v-card-text>
-                <v-card-title primary-title class="layout justify-center">
-                  <div class="headline text-center">
-                    Christoffer Andersen Tenvig
-                  </div>
-                </v-card-title>
-                <!--                <v-card-text>-->
-                <!--                  <strong>Finance</strong><br>-->
-                <!--                  Valuation and due dilligence<br>-->
-                <!--                  Budgets and forecasts<br>-->
-                <!--                  Financial reporting<br>-->
-                <!--                  Audits-->
-                <!--                </v-card-text>-->
-              </v-card>
-            </v-flex>
-            <v-flex xs12 sm6 md4>
-              <v-card flat class="transparent">
-                <v-card-text class="text-center">
-                  <img src="/ola_svalheim.jpeg" alt="Hans Webjørnsen">
-                </v-card-text>
-                <v-card-title primary-title class="layout justify-center">
-                  <div class="headline text-center">
-                    Ola Leithe Svalheim
-                  </div>
-                </v-card-title>
+                <img src="/ola_svalheim.jpeg" alt="Hans Webjørnsen">
+
+                <div class="headline text-center">
+                  Ola Leithe Svalheim
+                </div>
+
                 <!--                <v-card-text>-->
                 <!--                  <strong>Finance</strong><br>-->
                 <!--                  Valuation and due dilligence<br>-->
@@ -404,6 +398,10 @@ export default {
 </script>
 
 <style scoped lang="stylus">
+  .v-card__text
+    padding-top 5px !important
+    margin-bottom 20px !important
+
   h2
     font-size 30px
     text-align center
@@ -433,7 +431,7 @@ export default {
     text-align center
 
   .team img
-    border-radius 100%
+    border-radius 100% !important
     width 150px
     height 150px
 
