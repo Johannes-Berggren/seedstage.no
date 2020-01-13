@@ -267,13 +267,13 @@
                   Håkon Kristiansen
                 </div>
 
-                <!--                <v-card-text>-->
-                <!--                  <strong>Finance</strong><br>-->
-                <!--                  Valuation and due dilligence<br>-->
-                <!--                  Budgets and forecasts<br>-->
-                <!--                  Financial reporting<br>-->
-                <!--                  Audits-->
-                <!--                </v-card-text>-->
+                <v-card-text>
+                  <strong>Digital marketing</strong><br>
+                  Search Engine Optimization<br>
+                  Conversion Optimization<br>
+                  Business Development<br>
+                  Business Strategy
+                </v-card-text>
               </v-card>
             </v-flex>
             <v-flex xs12 sm6 md4>
