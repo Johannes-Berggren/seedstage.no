@@ -174,7 +174,7 @@
         </v-flex>
         <v-flex xs12>
           <v-layout row wrap align-top justify-center team>
-            <v-flex xs12 sm6 md4>
+            <v-flex xs12 sm6 md4 lg3>
               <v-card flat class="transparent">
                 <img src="/johannes_berggren.jpeg" alt="Johannes Berggren">
 
@@ -184,14 +184,14 @@
 
                 <v-card-text>
                   <strong>Software Engineering</strong><br>
-                  Systems engineering management<br>
                   Systems administration<br>
+                  Software architecture<br>
                   Product development<br>
                   Outsourcing
                 </v-card-text>
               </v-card>
             </v-flex>
-            <v-flex xs12 sm6 md4>
+            <v-flex xs12 sm6 md4 lg3>
               <v-card flat class="transparent">
                 <img src="/arthur_pogosov.jpeg" alt="Arthur Pogosov">
 
@@ -208,7 +208,7 @@
                 </v-card-text>
               </v-card>
             </v-flex>
-            <v-flex xs12 sm6 md4>
+            <v-flex xs12 sm6 md4 lg3>
               <v-card flat class="transparent">
                 <img src="/hans_webjornsen.jpeg" alt="Hans Webjørnsen">
 
@@ -225,7 +225,7 @@
                 </v-card-text>
               </v-card>
             </v-flex>
-            <v-flex xs12 sm6 md4>
+            <v-flex xs12 sm6 md4 lg3>
               <v-card flat class="transparent">
                 <img src="/christian_storm.jpeg" alt="Hans Webjørnsen">
 
@@ -242,7 +242,7 @@
                 </v-card-text>
               </v-card>
             </v-flex>
-            <v-flex xs12 sm6 md4>
+            <v-flex xs12 sm6 md4 lg3>
               <v-card flat class="transparent">
                 <img src="/martin_jorgensen.jpg" alt="Hans Webjørnsen">
 
@@ -251,15 +251,14 @@
                 </div>
 
                 <v-card-text>
-                  <!--                  <strong>Finance</strong><br>-->
-                  <!--                  Valuation and due dilligence<br>-->
-                  <!--                  Budgets and forecasts<br>-->
-                  <!--                  Financial reporting<br>-->
-                  <!--                  Audits-->
+                  <strong>Fintech</strong><br>
+                  Hospitality and travel<br>
+                  Digital transformation<br>
+                  Saas companies
                 </v-card-text>
               </v-card>
             </v-flex>
-            <v-flex xs12 sm6 md4>
+            <v-flex xs12 sm6 md4 lg3>
               <v-card flat class="transparent">
                 <img src="/hakon_kristiansen.jpeg" alt="Hans Webjørnsen">
 
@@ -268,7 +267,7 @@
                 </div>
 
                 <v-card-text>
-                  <strong>Digital marketing</strong><br>
+                  <strong>Digital Marketing</strong><br>
                   Search Engine Optimization<br>
                   Conversion Optimization<br>
                   Business Development<br>
@@ -276,21 +275,13 @@
                 </v-card-text>
               </v-card>
             </v-flex>
-            <v-flex xs12 sm6 md4>
+            <v-flex xs12 sm6 md4 lg3>
               <v-card flat class="transparent">
                 <img src="/ola_svalheim.jpeg" alt="Hans Webjørnsen">
 
                 <div class="headline text-center">
                   Ola Leithe Svalheim
                 </div>
-
-                <!--                <v-card-text>-->
-                <!--                  <strong>Finance</strong><br>-->
-                <!--                  Valuation and due dilligence<br>-->
-                <!--                  Budgets and forecasts<br>-->
-                <!--                  Financial reporting<br>-->
-                <!--                  Audits-->
-                <!--                </v-card-text>-->
               </v-card>
             </v-flex>
           </v-layout>
@@ -301,37 +292,9 @@
     <section>
       <v-container grid-list-xl>
         <v-layout row wrap justify-center class="my-12">
-          <!--          <v-flex xs12 sm4>-->
-          <!--            <v-card flat class="transparent">-->
-          <!--              <v-card-title primary-title class="layout justify-center">-->
-          <!--                <div class="headline">Company info</div>-->
-          <!--              </v-card-title>-->
-          <!--              <v-card-text>-->
-          <!--                Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.-->
-          <!--                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.-->
-          <!--                Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.-->
-          <!--              </v-card-text>-->
-          <!--            </v-card>-->
-          <!--          </v-flex>-->
-          <v-flex id="contact" xs12 sm4 offset-sm1>
-            <v-card flat class="transparent">
-              <v-card-title primary-title class="layout justify-center">
-                <div class="headline">
-                  Contact us
-                </div>
-              </v-card-title>
-              <!--              <v-card-text>-->
-              <!--                Let's start the conversation-->
-              <!--              </v-card-text>-->
+          <v-flex id="contact" xs12>
+            <v-card flat class="transparent" style="width: 290px; margin: auto">
               <v-list class="transparent">
-                <!--                <v-list-item>-->
-                <!--                  <v-list-item-action>-->
-                <!--                    <v-icon class="blue&#45;&#45;text text&#45;&#45;lighten-2">mdi-phone</v-icon>-->
-                <!--                  </v-list-item-action>-->
-                <!--                  <v-list-item-content>-->
-                <!--                    <v-list-item-title>777-867-5309</v-list-item-title>-->
-                <!--                  </v-list-item-content>-->
-                <!--                </v-list-item>-->
                 <v-list-item>
                   <v-list-item-action>
                     <v-icon class="blue--text text--lighten-2">
