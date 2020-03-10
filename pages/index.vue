@@ -8,8 +8,9 @@
           justify-center
           class="white--text"
         >
+          <img src="Logo_white.png" style="width: 100%">
           <h1 class="white--text mb-2 display-1 text-center">
-            Seedstage is an angel investor collective
+            Angel investor collective
           </h1>
           <div class="subheading mb-4 text-center">
             We share knowledge, ideas and dealflow.
@@ -134,6 +135,15 @@
               investment-logos
             >
               <img src="/learnlink_logo.png">
+            </v-flex>
+            <v-flex
+              xs12
+              sm6
+              md4
+              my-5
+              investment-logos
+            >
+              <img src="/visualyst_logo.png">
             </v-flex>
           </v-layout>
         </v-flex>
