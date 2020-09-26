@@ -8,21 +8,13 @@
           justify-center
           class="white--text"
         >
-          <img src="Logo_white.png" style="width: 100%">
+          <img src="Logo_white.png" style="width: 100%; max-width: 900px">
           <h1 class="white--text mb-2 display-1 text-center">
             Angel investor collective
           </h1>
           <div class="subheading mb-4 text-center">
             We share knowledge, ideas and dealflow.
           </div>
-          <a
-            class="typeform-share button"
-            href="https://learnlink.typeform.com/to/Rd0lV6"
-            data-mode="popup"
-            style="display:inline-block;text-decoration:none;background-color:#54a5f4;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;"
-            target="_blank"
-          >Get in touch
-          </a>
         </v-layout>
       </v-parallax>
     </section>
@@ -39,9 +31,6 @@
             <h2 class="headline">
               Portfolio
             </h2>
-            <span class="subheading">
-              Our collective investments
-            </span>
           </div>
         </v-flex>
         <v-flex xs12>
@@ -63,6 +52,15 @@
               investment-logos
             >
               <img src="/accountflow_logo.png">
+            </v-flex>
+            <v-flex
+              xs12
+              sm6
+              md4
+              my-5
+              investment-logos
+            >
+              <img src="/horde_logo.png" style="max-width: 100px">
             </v-flex>
             <v-flex
               xs12
@@ -157,10 +155,9 @@
             <h2 class="headline">
               Our investment profile
             </h2>
-            <p>We invest in companies that have some initial traction.</p>
+            <p>Companies that have some initial traction.</p>
             <p>Completed FFF and pre-seed rounds.</p>
             <p>If you don't have revenue, you should know how to get it.</p>
-            <p>Our typical check size is 300 000 - 1 000 000 NOK.</p>
           </div>
         </v-flex>
       </v-layout>
@@ -177,9 +174,6 @@
             <h2 class="headline">
               Members
             </h2>
-            <span class="subheading">
-              Seedstage members and their core competencies
-            </span>
           </div>
         </v-flex>
         <v-flex xs12>
@@ -327,15 +321,6 @@
                     </v-list-item-title>
                   </v-list-item-content>
                 </v-list-item>
-                <br>
-                <a
-                  class="typeform-share button"
-                  href="https://learnlink.typeform.com/to/Rd0lV6"
-                  data-mode="popup"
-                  style="display:inline-block;text-decoration:none;background-color:#54a5f4;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;"
-                  target="_blank"
-                >Contact Seedstage
-                </a>
               </v-list>
             </v-card>
           </v-flex>
@@ -345,76 +330,51 @@
   </div>
 </template>
 
-<script>
-export default {
-  mounted () {
-    // eslint-disable-next-line
-    (function () {
-      let js
-      let q
-      const d = document
-      const gi = d.getElementById
-      const ce = d.createElement
-      const gt = d.getElementsByTagName
-      const id = 'typef_orm_share'
-      const b = 'https://embed.typeform.com/'
-      if (!gi.call(d, id)) {
-        js = ce.call(d, 'script')
-        js.id = id
-        js.src = b + 'embed.js'
-        q = gt.call(d, 'script')[0]
-        q.parentNode.insertBefore(js, q)
-      }
-    })()
-  }
-}
-</script>
-
 <style scoped lang="stylus">
-  .v-card__text
-    padding-top 5px !important
-    margin-bottom 20px !important
+.v-card__text
+  padding-top 5px !important
+  margin-bottom 20px !important
 
-  h2
-    font-size 30px
-    text-align center
+h2
+  font-size 30px
+  text-align center
 
-  a
-    font-family sans-serif
-    text-decoration none
+a
+  font-family sans-serif
+  text-decoration none
 
-  .first a
-    font-size 18px
+.first a
+  font-size 18px
 
-  .second a
-    font-size 16px
+.second a
+  font-size 16px
 
-  .investment-logos
-    display flex
+.investment-logos
+  display flex
 
-  .investment-logos img
-    align-self center
-    margin auto
-    margin-bottom 20px
+.investment-logos img
+  align-self center
+  margin auto
+  margin-bottom 20px
 
-  .investment-logos img
-    max-width 200px
+.investment-logos img
+  max-width 200px
 
-  .team
-    text-align center
+.team
+  text-align center
 
-  .team img
-    border-radius 100% !important
-    width 150px
-    height 150px
+.team img
+  border-radius 100% !important
+  width 150px
+  height 150px
 
-  .bottom-spacing
-    margin-bottom 80px !important
+.bottom-spacing
+  margin-bottom 80px !important
 
-  .team p
-    margin 0
+.team p
+  margin 0
 
-  .team .role
-    color grey
-    font-size 14px
+.team .role
+  color grey
+  font-size 14px
 </style>
